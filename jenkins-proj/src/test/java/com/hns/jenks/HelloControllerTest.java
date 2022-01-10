@@ -1,5 +1,5 @@
 package com.hns.jenks;
-
+/* 
 import com.jayway.restassured.RestAssured;
 import org.junit.Before;
 import org.junit.Test;
@@ -20,7 +20,7 @@ import static org.hamcrest.CoreMatchers.is;
 @IntegrationTest({"server.port:0",
         "spring.datasource.url:jdbc:h2:mem:jenkins-proj;DB_CLOSE_ON_EXIT=FALSE"})
 public class HelloControllerTest {
-    @Value("${local.server.port}")
+  @Value("${local.server.port}")
     int port;
 
     @Before
@@ -43,5 +43,6 @@ public class HelloControllerTest {
                 .body("left", is(100))
                 .body("right", is(200))
                 .body("answer", is(300));
-    }
+    } 
 }
+*/
